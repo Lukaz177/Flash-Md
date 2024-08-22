@@ -35,7 +35,7 @@
     {
       "description":"Your contact status will be read automatically(put on to activate or no to deactivate ; don't write in capital letter)",
       "value":"on",
-      "required":false
+      "required":true
     }, "AUTO_SAVE_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
@@ -60,7 +60,7 @@
     "BOT_MODE":
     {
       "description":"put private  to put your bot on private mode or public to put it on public mod",
-      "value":"private",
+      "value":"public",
       "required":false
     }
         ,
@@ -76,7 +76,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with FLASH-MD-WA-BOT...",   
-      "value":"",
+      "value":"FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibUNxNXNnaEVCdE9sb2U0T2xaV1NQR2FVQTNkRTVFV2pkMFVUbWtiSjIybz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRUYyTmNBak9mNHY0VVJjNXJEbDg3SU1Mck5NUXFlYkVtTHRPSUZpaU5pST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrTEgranZhMGJydFhyRUNZdDF4RkYxNlBoTjY3QzljYTY5SitxMDVlK1dJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIyK1ZxN2RyUlNtQjRqUzI2YW9FV0xkNFErWEZQTWhaV2dyNTg4bXEweG5ZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNHbVVRWGdJN1BtTmtoTVdGR0JqY2FyK24zTXU2VGcxbDBVSE9NNmZObW89In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImJBUENWb1ZpdjlENHNSNkI4V1NESkZoVi9ob1F0K2JZdnhDU3c2azlHQlE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK0FCUmlET3RscjFXZ1ppcEJrd00vb3RhVW5aM1BhMWFTR0t0VnpRNHYxST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNGx1SjQ2QklIek1FRW1CT3pXaFgxVzF0bmxEVjFkSEgyR2hKY0dpRFcwQT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkVhdk01UnNmMjNwWXZQMHJBUlVmSDhZK1pKTGwxMUVaV250MFdDcTlpZTl0cDBoZHNrM09FWmxmZkpnLysrNyt2UVhjbWlRZlFjZWsxTXdva29kdGdBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjMzLCJhZHZTZWNyZXRLZXkiOiJnd3ZaY3pDQXBTMmhFMngrNFFmWDdQdm8yQXhidnp6ZEdKY1l0aHk1cllVPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI1MjY4MjY0MjgwMkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJBMEQzMjFGQjA0NTA2MkY0RkM3MDY5MUU4RDE2RjhERiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzI0MjkxMzMwfSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyNTI2ODI2NDI4MDJAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiM0FCNzkwODU5OTE5Mzc4RTU0NjU4RjY5RDgyNjk3MTgifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcyNDI5MTMzMX1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoicVIzSG4zdEZTSTZOaUYzMFkwWTJMdyIsInBob25lSWQiOiJiMjdkMjlkMy05YzUxLTRmYmQtOTY5MS1mOWJhNzE3NTcwYzAiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYkZoS1Jyc1NEZzJVcGZhbE5LN2p2R2FKM0pFPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InR4Ym4vUWpwK2MwREhZNUNReFdFeVJjOW1uOD0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiI5WEdaUERZQSIsIm1lIjp7ImlkIjoiMjUyNjgyNjQyODAyOjhAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiwrNydWxl4ouGYnJlYWtlctmtzZwgwrMifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ01uNWdmd0VFUE94bXJZR0dBTWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6ImZwVjVsb2g4bSswZFVnRjgyM0YwZ21aTDRCQlBEVGVCYUZlelAvcUhKaUE9IiwiYWNjb3VudFNpZ25hdHVyZSI6Ik50VkhDZ1VEeXJjRkU0SHhkN3hQcVhpT1VGL0Mxckpac1QrMlRMYmhwMjAvamFsMjJBYWRodEVzNmVjNkx2dXptbmR6bm5EV2R2TTJPT3hvUlBlbUNnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJSTm9wQnRlZkJPdkhOYnY0ams0Z2hDcUFVeFdtd2lqMDdyQm5FRS9XWUF6NGtlWE5UcWVZZXhVOThGZ2tHZjMrWm9pUnUrZmt5TzNheVUzWFJSWkdpQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1MjY4MjY0MjgwMjo4QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlg2VmVaYUlmSnZ0SFZJQmZOdHhkSUptUytBUVR3MDNnV2hYc3ovNmh5WWcifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjQyOTEzMjcsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSmg0In0=",
       "required": true
 
     },
@@ -84,15 +84,15 @@
     {
 
     "desc": "Your Name",
-    "required": false,
-    "value": "France King"
+    "required": true,
+    "value": "lukas-tech"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
-    "required":false,
-    "value": "254751284190"
+    "required":true,
+    "value": "252682642802"
   },
     "WARN_COUNT":
   {
@@ -114,8 +114,8 @@
   },
   "PRESENCE":{
     "description":"Put online to indicate that you are ever online even if you are not. Put typing to indicate that you are currently typing a message. Put recording to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
-    "required": false
+    "value":"recording",
+    "required": true
   }  
   },
   
